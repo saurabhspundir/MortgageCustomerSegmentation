@@ -10,37 +10,41 @@ According to the problem defined by top players, the mortgage companies have not
 As per a recent study conducted by J.D. Powers, 63% of customers would leave their mortgage servicer for better customer service. The same study shows that 27% of first-time buyers and 21% of all borrowers regret their choice of lender.
 Mortgage companies want to increase their market share and for doing so they need to understand their customers better. This project aims to use data from the Consumer Financial Protection Bureau and build an unsupervised machine learning model to segment their customer base.   
 
-The problem in this project to be addressed is that <u>“Is it possible to identify the segment of mortgage customer based on the loans provided to the customer in the last three years?” </u>
+The problem in this project to be addressed is that **“Is it possible to identify the segment of mortgage customer based on the loans provided to the customer in the last three years?” **
 
 
 
 File names and descriptions
 ===========================
-1. **KickstarterCapstoneProjectProposal.docx**:Initial proposal for the project
+1. **MortgageCustomerSegmentationCapstoneProjectProposal.docx**:Initial proposal for the project
 
-2. **Capstone_DataWrangling_I_ReadFiles.ipynb**: First part of data wrangling of reading and consolidating file
+2. **CapstoneII_DataWrangling_I_ReadFiles.ipynb**: First part of data wrangling of reading and consolidating file
 
-3. **Capstone_DataWrangling_II_ReadFiles.ipynb** : Second part part of data wrangling of merging and extracting data 
+3. **CapstoneII_DataWrangling_II_DataUpdate.ipynb** : Second part  of data wrangling of creating some column required for data story
 
-4. **Capstone_DataWrangling_III_ReadFiles.ipynb** Third part of data wrangling of creating some column required for data story, machine learning. And saving a final file
+4. **Capstone2_DataWrangling_III_ML.ipynb** Third part of data wrangling of creating some column required for machine learning. And saving a final file
 
-5. **Capstone_DataStory.ipynbb** : Exploring data through the graphs and visuals
+5. **CapstoneII_DataStoryFile.ipynb** : Exploring data through the graphs and visuals
 
-6. **Capstone_Inferential_Statistic.ipynb** : Exploring infrentail statastics 
+6. **CapstoneII_Inferential_Statistic.ipynb** : Exploring infrentail statastics 
 
-7. **Capstone_ML_LogisticRegression.ipynb** : Implementing logistic regrssion as baseline analysis
+7. **Capstone2_ML_Clustering_KMeans.ipynb** : Implementing K Means as clustering algorithm
 
-8. **KickstarterCapstoneProjectMileStoneReport.pdf** : Milestine report about all finding till baseline anlaysis
+8. **CapstoneII_DataStory_KMean3.ipynb** :Creating graphs for clustering algorithm N=3
 
-9. **Capstone_ML_LogisticRegression_RandomForestClass.ipynb** : Implementing random forest ML with various variations as final analysis
+9. **ML_DBSCAN.py** : Implementing K Means as clustering algorithm
 
-10. **KickstarterCapstoneProjectFinalReport_draft.pdf** : Final report for the project
+10. **ML_AgglomerativeClustering.py** : Implementing K Means as clustering algorithm
 
-11. **KickstarterSuccessPredicationSlides.pptx** : The project presentation
+11. **MortgageCustomerSegmentationMilestoneReport.pdf** : Milestine report about all finding till baseline anlaysis
 
+12. **MortgageCustomerSegmentationSlides.pptx** : The project presentation
 
+13. **cluster3pic** : The folder contaiing all the images used in K mean data story project. The files creatd by plot.ly 
+
+14. **cluster3html** : The folder contaiing all the html used in K mean data story project. The files creatd by plot.ly 
 
 Data Source
 ===========================
 
-The data can be found on [Kickstarter Dataset](https://webrobots.io/kickstarter-datasets)
+The data can be found on [Loans Dataset](https://www.consumerfinance.gov/data-research/hmda/)
